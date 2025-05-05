@@ -1,0 +1,58 @@
+/* App.css */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter-container {
+  margin: 30px auto 40px auto;
+  padding: 30px;
+  width: 200px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.counter-container:hover {
+  transform: scale(1.03);
+}
+
+.counter-value {
+  font-size: 3rem;
+  color: #1e293b;
+  font-weight: 700;
+  margin: 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+@media (max-width: 600px) {
+  .counter-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  button {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+}
